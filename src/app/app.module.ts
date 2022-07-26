@@ -7,19 +7,23 @@ import { AppComponent } from './app.component';
 
 import { HeroesModule } from './heroes/Heroes.module';
 import { ContadorModule } from './contador/contador.module';
+import { DragModule } from './drag/drag.module';
+
+
 
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     
-    
-  ],
+      
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    DragModule
   ],
   providers: [],
   bootstrap: [AppComponent]
